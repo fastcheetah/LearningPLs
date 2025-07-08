@@ -298,3 +298,5 @@ Heat Index: 23.9°C / 75.0°F
 - **Loops**: Continuously monitor temperature
 - **Libraries**: Use pre-written sensor code
 - **Serial Communication**: Display results on computer
+Teachers mail
+samuelchibua2019@gmail.com
