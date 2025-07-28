@@ -13,4 +13,5 @@ print("Edeh should", phrase)
 sentence = "DOMba oof"
 print(sentence.replace("oof","not real"))
 
-print(10 % 3)#mod operator it spits the remainder of first number divided by second number
+answer = (10 % 3)#mod operator it spits the remainder of first number divided by second number
+print(str(answer) + " is the answer for the problem")
