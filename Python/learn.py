@@ -4,13 +4,13 @@ from math import *
 print("Hello, World!")
 # name = "Kelvin"
 # print(f"Welcome to Python, {name}!")
+phrase = "shhh"
+print("Edeh should", phrase)
+
 #This is a comment, it's not executed by the interpreter
 character_name = "Kelvin"
 programming_language = "Python"
 print(character_name , "is learning", programming_language)
-phrase = "shhh"
-print("Edeh should", phrase)
-
 sentence = "DOMba oof"
 print(sentence.replace("oof","not real"))
 
@@ -26,5 +26,15 @@ print(str(answer) + " is the answer for the problem")
 # print(result) 
 # num2 = input("Enter another number: ")
 
-coordinates = (10,20,40,80)
-print(coordinates[3])#tuples cannot be be changed
+# coordinates = (10,20,40,80)
+# print(coordinates[3])#tuples cannot be be changed
+
+#Functions in Python
+def say_Hi():
+    print("Hello User")
+say_Hi() 
+
+def cube(num):
+    return num*num*num
+
+print(cube(3))
