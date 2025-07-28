@@ -7,3 +7,8 @@ print(f"Welcome to Python, {name}!")
 character_name = "Kelvin"
 programming_language = "Python"
 print(character_name , "is learning", programming_language)
+phrase = "shhh"
+print("Edeh should", phrase)
+
+sentence = "Kid oof"
+print(sentence[3])
