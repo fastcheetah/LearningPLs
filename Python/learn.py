@@ -1,3 +1,4 @@
+from math import *
 # This is the section where I learn how to code in python
 #Finally found a good YouTube course
 print("Hello, World!")
@@ -15,3 +16,4 @@ print(sentence.replace("oof","not real"))
 
 answer = (10 % 3)#mod operator it spits the remainder of first number divided by second number
 print(str(answer) + " is the answer for the problem")
+print(floor(3.7))
