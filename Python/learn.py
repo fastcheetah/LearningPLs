@@ -21,7 +21,10 @@ print(str(answer) + " is the answer for the problem")
 # print("Hello " + name + "!" "and you are " + age)
 
 #When you collect userdata its accepted as string you have to make sure your value is a number or integer or float from your code so they dont concatenate and float for decimal
-num1 = input("Enter a number: ")
-num2 = input("Enter another number: ")
-result = float(num1) + float(num2)
-print(result)
+# num1 = input("Enter a number: ")
+# result = float(num1) + float(num2)
+# print(result) 
+# num2 = input("Enter another number: ")
+
+coordinates = (10,20,40,80)
+print(coordinates[3])#tuples cannot be be changed
