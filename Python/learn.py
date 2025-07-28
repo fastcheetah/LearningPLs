@@ -16,6 +16,12 @@ print(sentence.replace("oof","not real"))
 
 answer = (10 % 3)#mod operator it spits the remainder of first number divided by second number
 print(str(answer) + " is the answer for the problem")
-name = input("Enter your name:")
-age = input("Enter your age:")
-print("Hello " + name + "!" "and you are " + age)
+# name = input("Enter your name:")
+# age = input("Enter your age:")
+# print("Hello " + name + "!" "and you are " + age)
+
+#When you collect userdata its accepted as string you have to make sure your value is a number or integer or float from your code so they dont concatenate and float for decimal
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)
+print(result)
