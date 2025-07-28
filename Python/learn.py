@@ -10,5 +10,5 @@ print(character_name , "is learning", programming_language)
 phrase = "shhh"
 print("Edeh should", phrase)
 
-sentence = "Kid oof"
-print(sentence[3])
+sentence = "DOMba oof"
+print(sentence.replace("oof","not real"))
