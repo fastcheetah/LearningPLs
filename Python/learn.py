@@ -38,3 +38,12 @@ def cube(num):
     return num*num*num
 
 print(cube(3))
+
+is_male = True
+is_tall = True
+
+if is_male and is_tall:
+    print("You are a tall male, Nice!")
+ 
+else:
+    print("You are either  male not  tall or both.")
