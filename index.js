@@ -1,5 +1,6 @@
 import * as THREE from "three"
 
+
 const w = window.innerWidth;
 const h = window.innerHeight;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -11,21 +12,24 @@ const camera = new THREE.PerspectiveCamera(75, w / h, 0.1, 1000);
 camera.position.z = 2;
 const scene = new THREE.Scene();
 
+
 const geo = new THREE.IcosahedronGeometry(1.0,2);
 const mat = new THREE.MeshStandardMaterial({ color: 0xffffff, flatShading: true });
 const mesh = new THREE.Mesh(geo, mat);
 scene.add(mesh);
 
 const wireMat = new THREE.MeshBasicMaterial({ color: 0x000000, wireframe: true });
-const wireMesh = new THREE.Mesh(geo, wireMat);
-scene.add(wireMesh);
 
-const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000);
+const wireMesh = new THREE.Mesh(geo, wireMat);
+mesh.add(wireMesh);
+
+const hemiLight = new THREE.HemisphereLight(0x0099ff, 0xaa5500);
 scene.add(hemiLight);
 
 function animate() {
     requestAnimationFrame(animate);
-    
+    mesh.rotation.x += 0.01;
+    mesh.rotation.y += 0.01;
     renderer.render(scene, camera);
 }
 animate();
