@@ -1,5 +1,5 @@
 import * as THREE from "three";
-
+//This is for the Three.js Earth plugin, which uses a custom fresnel shader for rim lighting effects.
 function getFresnelMat({rimHex = 0x0088ff, facingHex = 0x000000} = {}) {
   const uniforms = {
     color1: { value: new THREE.Color(rimHex) },
